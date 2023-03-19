@@ -19,7 +19,7 @@ import requests
 import sys
 from functools import partial
 
-maifol = os.path.join(os.path.abspath(os.path.dirname(sys.executable)))
+maifol = os.path.join(os.path.abspath(os.path.dirname(__file__)))
 pklnames = os.path.normpath(os.path.join(maifol, "allnamesformatfirst.pkl"))
 from a_pandas_ex_apply_ignore_exceptions import pd_add_apply_ignore_exceptions
 from deepcopyall import deepcopy
